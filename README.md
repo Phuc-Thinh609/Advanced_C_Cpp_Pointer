@@ -33,6 +33,16 @@
     int d = 0b1011; 
     int result = a ^ b ^ c ^ d; // 0b1010
     ```
+ ## Shifl left và Shifl right bitwise 
+ - Shifl left (<<) và Shifl right (>>) hình dung là dịch bên nào thì bên đó xóa và thêm số 0 và bên ngược lại
+   ```Cpp
+    int a = 0b10010110
+    int result_1 = a << 1; //0b 00101100
+    int result_2 = a << 3; //0b 10110000
+    
+    int result_3 = a >> 3; //0b 01001011
+    int result_4 = a << 3; //0b 00010010
+   ```
 
 
     
