@@ -40,8 +40,8 @@
     int result_1 = a << 1; //0b 00101100
     int result_2 = a << 3; //0b 10110000
     
-    int result_3 = a >> 3; //0b 01001011
-    int result_4 = a << 3; //0b 00010010
+    int result_3 = a >> 3; //0b 00010010
+    int result_4 = a >> 6; //0b 00000010
    ```
 
 
